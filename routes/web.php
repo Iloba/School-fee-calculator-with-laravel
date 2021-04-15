@@ -21,7 +21,7 @@ Route::get('/', function () {
 });
 
 //Route to generate
-Route::post('/generate', [FeesGenerator::class, 'generate']);
+Route::post('/generate', [FeesGenerator::class, 'generate'])->name('index');
 
 Auth::routes();
 
