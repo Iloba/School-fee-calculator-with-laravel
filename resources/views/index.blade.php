@@ -12,9 +12,7 @@
                         <input type="number" name="fees" class="form-control" placeholder="Enter Amount of School Fees PAid"> <br>
                         <input type="submit" class="btn btn-info text-light" value="Add School Fees">
                     </form>
-                    @foreach ($data as $dat)
-                        {{$dat}}
-                    @endforeach
+                   
                 </div>
             </div>
         </div>
